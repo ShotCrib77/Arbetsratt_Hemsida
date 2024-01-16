@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #262626;
+}
+.gul {
+  background-color: #ffc14f;
+}
+
+html {
+  font-family:"Josefin Sans", sans-serif;
+}
+
+/* Navbar */
+nav li {
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
+  position: sticky;
+  z-index: 1000;
+  top:0;
+  box-shadow: 20px 0px 50px rgb(15, 14, 14);
+}
+
+nav {
+  background-color: #222222;
+  height: 6rem;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.nav-menu-items {
+  display:flex;
+  gap: 3rem;
+  margin-left: 1rem;
+  font-size: 1.15rem;
+}
+
+.nav-branding {
+  font-size: 1.75rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+.nav-link {
+  transition: 0.3s ease-out;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+@media(max-width:1024px) {
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:inherit;
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+
+  #seperator {
+    margin-top: 1.5rem;
+  }
+
+}
+/*! Navbar */
+
+/* First section */
+.first-section {
+  height:30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:2.5rem;
+}
+/*! First section */
+
+/* Text section */
+.text-section {
+  height: 100rem;
+
+}
+
+.text-box {
+  max-width: 35ch;
+  color: #26262626;
+}
+
+.right {
+  margin-right: auto;
+}
+
+/*! Text section */
+
+
+.logo-lista {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo{
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  background-color: #ccc;
+  list-style-type: none;
+}
+
+footer {
+  width: 100%;
+  height: 7.5rem;
+  background-color: #262626;
+  border-top:0.5em;
+  margin-top: 30vh;
+}
+
+.foot{
+   box-shadow: -20px 0px 50px rgb(15, 14, 14);
+   position: relative;
+   z-index: 2;
+}
