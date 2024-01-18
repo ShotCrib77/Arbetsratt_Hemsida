@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9b233;
+      }
+
+      .cls-1, .cls-2 {
+        mix-blend-mode: hard-light;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-6 {
+        fill: #efd0be;
+      }
+
+      .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-8 {
+        fill: #0eabbd;
+      }
+
+      .cls-9 {
+        fill: #046f83;
+      }
+
+      .cls-4 {
+        font-family: JosefinSans-Bold, 'Josefin Sans';
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .cls-10 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f4963a;
+      }
+    </style>
+  </defs>
+  <g class="cls-7">
+    <g id="Lager_2" data-name="Lager 2">
+      <path class="cls-6" d="m452.16,184.11c-5.85,3.02-10.1,5.39-11.44,2.8s2.32-7.14,8.18-10.16,11.68-3.37,13.01-.78-3.9,5.12-9.75,8.14Z"/>
+      <path class="cls-6" d="m337.8,298.72c-2.81,5.96-4.74,10.42-7.38,9.18s-2.49-7.08.31-13.03,7.22-9.78,9.85-8.54.02,6.43-2.79,12.39Z"/>
+      <rect class="cls-6" x="372.2" y="206.7" width="9.31" height="10.86" rx="3.82" ry="3.82" transform="translate(-53.21 257.48) rotate(-35.4)"/>
+      <path class="cls-9" d="m418.41,346.67h0c-3.12-.53-5.2-3.62-4.64-6.89l6.45-48.54c.56-3.27,4.04,2.51,7.16,3.04h0c3.12.53,5.2,3.62,4.64,6.89l-6.94,40.55c-.56,3.27-3.54,5.49-6.66,4.95Z"/>
+      <rect class="cls-9" x="416.23" y="257.78" width="13.47" height="39.62" rx="5.04" ry="5.04" transform="translate(-64.96 143.88) rotate(-17.95)"/>
+      <rect class="cls-8" x="376.09" y="210.9" width="37.15" height="68.79" rx="9.34" ry="9.34" transform="translate(-69.77 230.19) rotate(-30)"/>
+      <rect class="cls-8" x="349.03" y="217.78" width="12.38" height="81.63" rx="6.19" ry="6.19" transform="translate(158.12 -134.1) rotate(27.29)"/>
+      <rect class="cls-8" x="407.73" y="160.45" width="12.38" height="81.63" rx="6.19" ry="6.19" transform="translate(381.26 -257.83) rotate(60)"/>
+      <path class="cls-8" d="m443.6,299.48h0c-2.17,3.72-6.38,5.3-9.38,3.54l-40.18-23.65c-11.54-22.82,2.52-2.41,4.69-6.13h0c2.17-3.72,6.38-5.3,9.38-3.54l33.97,19.87c3.01,1.76,3.69,6.2,1.51,9.92Z"/>
+      <rect class="cls-8" x="442.06" y="286.73" width="13.59" height="49.15" rx="5.96" ry="5.96" transform="translate(-96.83 286.64) rotate(-32.16)"/>
+      <rect x="454.26" y="323.37" width="23.85" height="5.96" rx="2.98" ry="2.98" transform="translate(-102.88 323.69) rotate(-34.73)"/>
+      <rect x="413.01" y="340.91" width="23.85" height="5.96" rx="2.98" ry="2.98" transform="translate(20.34 -23.72) rotate(3.28)"/>
+      <path class="cls-1" d="m418.28,474.13c-35.21,0-63.75-28.54-63.75-63.75s28.54-63.75,63.75-63.75"/>
+      <path class="cls-2" d="m418.28,346.64c35.21,0,63.75,28.54,63.75,63.75s-28.54,63.75-63.75,63.75"/>
+      <path class="cls-3" d="m387.6,234.3l-17.35-8.74c-2.33-1.17-2.51-4.42-.33-5.85l16.24-10.66c2.18-1.43,5.08.04,5.23,2.64l1.11,19.39c.15,2.6-2.57,4.38-4.9,3.21Z"/>
+      <polygon points="383.62 221.44 374.35 217.01 382.82 211.2 383.62 221.44"/>
+      <ellipse cx="386.69" cy="226.38" rx="2.22" ry="8.02" transform="translate(-61.38 223.68) rotate(-30)"/>
+      <ellipse class="cls-6" cx="365.46" cy="195.69" rx="18.11" ry="19.18" transform="translate(-48.55 174.53) rotate(-25.24)"/>
+      <line class="cls-10" x1="419.66" y1="342.52" x2="420.11" y2="531"/>
+      <text class="cls-4" transform="translate(364.43 415.79)"><tspan class="cls-5" x="0" y="0">W</tspan><tspan x="13.48" y="0">ORK</tspan></text>
+      <text class="cls-4" transform="translate(433.54 415.92)"><tspan x="0" y="0">LIFE</tspan></text>
+    </g>
+  </g>
+</svg>
