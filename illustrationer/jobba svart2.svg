@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lager_3" data-name="Lager 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 710.56 543.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c79b00;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #b47b12;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #a5d1a1;
+      }
+
+      .cls-5 {
+        fill: #bfdcaf;
+      }
+
+      .cls-6 {
+        fill: #83c3ec;
+      }
+
+      .cls-3 {
+        fill: #238d37;
+        stroke: #c3deb6;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-3" points="198.14 228.89 235.09 240.18 235.39 234.75 236.97 228.15 239.18 219.49 240.6 213.42 242.44 208.12 246.24 202.77 249.81 197.48 252.74 191.3 255.28 185.99 256.2 179.98 255.93 174.6 254.65 168.68 219.96 158.09 219.3 162.39 219.14 170.83 217.31 176.69 215.8 182.45 214.42 186.67 211.89 192.69 208.77 198.43 206.22 203.12 202.78 209.32 200.78 213.13 199.43 217.09 198.46 223.47 198.14 228.89"/>
+    <ellipse class="cls-4" cx="227.19" cy="199.03" rx="8.09" ry="12.45" transform="translate(-29.54 358.15) rotate(-73.01)"/>
+    <circle class="cls-5" cx="249.98" cy="172.78" r="6.22"/>
+    <circle class="cls-5" cx="224.57" cy="165.02" r="6.22"/>
+    <circle class="cls-5" cx="230.64" cy="233.3" r="6.22"/>
+    <circle class="cls-5" cx="204.4" cy="225.29" r="6.22"/>
+  </g>
+  <g>
+    <polygon class="cls-3" points="482.44 270.88 446.37 276.14 446.86 271.03 446.32 264.64 445.5 256.25 445.04 250.38 444.08 245.18 441.29 239.65 438.72 234.2 436.86 228.02 435.26 222.71 435.25 216.97 436.28 211.99 438.31 206.65 472.18 201.71 472.19 205.82 471.13 213.72 472 219.44 472.59 225.03 473.28 229.16 474.78 235.14 476.87 240.94 478.57 245.68 480.9 251.96 482.23 255.8 482.92 259.68 482.92 265.77 482.44 270.88"/>
+    <ellipse class="cls-4" cx="459.6" cy="238.88" rx="11.75" ry="7.64" transform="translate(-29.67 68.83) rotate(-8.3)"/>
+    <circle class="cls-5" cx="442.08" cy="211.14" r="5.87"/>
+    <circle class="cls-5" cx="466.9" cy="207.52" r="5.87"/>
+    <circle class="cls-5" cx="451.5" cy="270.35" r="5.87"/>
+    <circle class="cls-5" cx="477.11" cy="266.62" r="5.87"/>
+  </g>
+  <g>
+    <rect class="cls-3" x="370.27" y="200.12" width="37.7" height="72.36" transform="translate(146.25 -148.75) rotate(26.49)"/>
+    <ellipse class="cls-4" cx="389.12" cy="236.3" rx="7.9" ry="12.16" transform="translate(4.06 479.17) rotate(-63.51)"/>
+    <circle class="cls-5" cx="390.61" cy="202.39" r="6.07"/>
+    <circle class="cls-5" cx="415.3" cy="214.69" r="6.07"/>
+    <circle class="cls-5" cx="362.94" cy="257.91" r="6.07"/>
+    <circle class="cls-5" cx="387.63" cy="270.22" r="6.07"/>
+  </g>
+  <g>
+    <rect class="cls-3" x="506.32" y="212.88" width="35.67" height="68.46" transform="translate(10.98 -22.07) rotate(2.44)"/>
+    <ellipse class="cls-4" cx="524.15" cy="247.1" rx="7.48" ry="11.51" transform="translate(254.98 760.27) rotate(-87.56)"/>
+    <circle class="cls-5" cx="512.36" cy="217.23" r="5.74"/>
+    <circle class="cls-5" cx="538.44" cy="218.34" r="5.74"/>
+    <circle class="cls-5" cx="509.87" cy="275.87" r="5.74"/>
+    <circle class="cls-5" cx="535.94" cy="276.98" r="5.74"/>
+  </g>
+  <g>
+    <rect class="cls-3" x="140.91" y="141.07" width="36.22" height="69.52" transform="translate(141.45 -60.59) rotate(37.88)"/>
+    <ellipse class="cls-4" cx="159.02" cy="175.83" rx="7.59" ry="11.68" transform="translate(-77.4 193.39) rotate(-52.12)"/>
+    <circle class="cls-5" cx="166.86" cy="144.17" r="5.83"/>
+    <circle class="cls-5" cx="187.78" cy="160.44" r="5.83"/>
+    <circle class="cls-5" cx="130.26" cy="191.21" r="5.83"/>
+    <circle class="cls-5" cx="151.18" cy="207.49" r="5.83"/>
+  </g>
+  <g>
+    <rect class="cls-3" x="294.19" y="186.43" width="42.65" height="81.86"/>
+    <ellipse class="cls-4" cx="315.51" cy="227.36" rx="13.76" ry="8.94"/>
+    <circle class="cls-5" cx="299.91" cy="192.27" r="6.87"/>
+    <circle class="cls-5" cx="331.12" cy="192.27" r="6.87"/>
+    <circle class="cls-5" cx="299.91" cy="262.45" r="6.87"/>
+    <circle class="cls-5" cx="331.12" cy="262.45" r="6.87"/>
+  </g>
+  <polyline class="cls-2" points="111.67 108.02 143.31 122.07 179.08 136.52 216.23 150.27 249.24 160.59 289.83 170.91 320.78 177.1 359.3 184.67 401.26 190.17 457.67 195.67 507.19 195.67 574.6 195.67"/>
+  <rect class="cls-1" x="179.45" y="108.75" width="9.63" height="44.02" rx="4.3" ry="4.3" transform="translate(77.67 -68.46) rotate(26.49)"/>
+  <rect class="cls-1" x="242.05" y="133.89" width="9.63" height="44.02" rx="4.3" ry="4.3" transform="translate(33.54 -43.45) rotate(10.79)"/>
+  <rect class="cls-1" x="323.94" y="155.04" width="9.77" height="44.69" rx="4.3" ry="4.3" transform="translate(39.01 -58.41) rotate(10.79)"/>
+  <rect class="cls-1" x="389.84" y="167.6" width="9.77" height="44.69" rx="4.3" ry="4.3" transform="translate(42.52 -70.52) rotate(10.79)"/>
+  <rect class="cls-1" x="446.62" y="172.55" width="9.77" height="44.69" rx="4.3" ry="4.3" transform="translate(-23.4 67.21) rotate(-8.3)"/>
+  <rect class="cls-1" x="519.84" y="176.43" width="9.77" height="44.69" rx="4.3" ry="4.3" transform="translate(46.47 -94.7) rotate(10.79)"/>
+  <path class="cls-6" d="m236.86,260.98c.27.85.46,1.73.54,2.58.14,1.42-.01,2.76-.54,3.74-.47.87-1.28,1.5-2.21,1.94-1.31.63-2.86.88-4.01.88s-2.76-.19-3.91-.81c-1.01-.55-1.53-1.47-2.31-2.39-.6-.71-.57-2.38-.42-3.7.1-.86.69-2.04.89-3.03.25-1.26.98-2.28,1.53-3.29s.94-1.3,1.53-2.14c.51-.73.83-1.53,1.22-2.29.46-.89.57-1.61,1.48-1.61.64,0,.7.69,1.05,1.22.57.89,1.28,1.95,1.99,2.98.56.82,1.16,1.69,1.71,2.66s1.08,2.04,1.46,3.25Z"/>
+</svg>

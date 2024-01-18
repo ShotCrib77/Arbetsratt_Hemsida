@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="script.js" defer></script>
+  <!-- <script src="script.js" defer></script> -->
   <link rel="stylesheet" href="https://use.typekit.net/fnm3wll.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap">
   <title>Arbetsratt</title>
@@ -15,21 +15,21 @@
   <!-- Navbar -->
     <div class="container">
         <nav>
-          <a href="#" class="nav-branding"><img class="logo" src="SVG/Rityta 2.svg" alt="Logo"></a>
+          <a href="#" class="nav-branding"><img class="logo" src="SVG/Rityta 2.svg" alt="Logo"></a> <!-- Länk tillbaka till huvudsidan -->
 
           <div class="nav-menu">
             <ul class="nav-menu-items">
               <li class="nav-item">
-                <a href="#" class="nav-link">Löneskillnad</a>
+                <button class="nav-link" onclick="scrollToTarget('löneskillnad')">Löneskillnad</button>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Trygghet och säkerhet</a>
+                <button class="nav-link" onclick="scrollToTarget('trygghet')">Trygghet och Säkerhet</button>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Ledighetsrätt</a>
+                <button class="nav-link" onclick="scrollToTarget('ledighetsrätt')">Ledighetsrätt</button>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Svartarbete</a>
+                <button class="nav-link" onclick="scrollToTarget('svartarbete')">Svartarbete</button>
               </li>
             </ul>
 
@@ -58,92 +58,154 @@
 <!-- !Navbar -->
 <!-- First section -->
 <section class="first-section">
-  <img src="SVG/Rityta 4.svg">
+  <h1>Arbetsrätt</h1>
 </section>
 <!-- !First section -->
 
 <!-- Text section -->
 <section class="text-section">
-  <div class="text-box left">
-    <h2>Lika betalt!</h2>
-    <p>
-      Lönegapet mellan män och kvinnor är en komplex fråga. 
-      Det kan bero på flera faktorer som könsskillnader i yrkesval, utbildning, 
-      erfarenhet och förhandlingsförmåga. Det är viktigt att arbeta för jämställdhet och minska lönegapet.
-      <br><br>
-      En annan faktor är det obetalda arbetet; vård och omsorg av barn samt hushållsarbete som städning och matlagning. Det står kvinnor främst för gav.
-      Obetalda arbete leder till att kvinnors möjlighet att delta fullt ut i arbetslivet skadas och därmed så påverkas deras inkomst.
-    </p>
-  </div>
-
-  <div class="text-box right">
-    <h2>Trygghet</h2>
-    <p>
-      Trygghet och säkerhet på jobbet är väldigt viktigt! 
-      Alla har rätt till en arbetsmiljö som är säker och fri från faror. 
-      Det finns lagar och regler som skyddar arbetstagare och arbetsgivare är skyldiga att följa dem. 
-      Det kan innebära att tillhandahålla skyddsutrustning, genomföra riskbedömningar, erbjuda utbildning och rapportera eventuella olyckor eller farliga situationer. 
-      Om du någonsin känner dig osäker eller har oro kring din arbetsmiljö, är det viktigt att prata med din arbetsgivare eller fackförening för att få stöd och hjälp. 
-      Ingen ska behöva känna sig otrygg på jobbet!
-      (SE HITTA HJÄLP HÖGST UPP TILL HÖGER FÖR NUMMER DU KAN ANVÄNDA OM DU KÄNNER DIG OTRYGG PÅ JOBBET)
-      <br>
-    </p>
-  </div>
   
-  <div class="text-box left">
-    <p>Några exempel på skyddsutrustning kan vara:</p>
-    <ul>
-      <li> Skyddshjälm: Används för att skydda huvudet vid arbete på byggarbetsplatser eller i industriella miljöer där det finns risk för fallande föremål eller huvudskador.</li>
-      <li>Skyddsglasögon: Används för att skydda ögonen mot skadliga partiklar, kemikalier eller ljus vid arbete i laboratorier, verkstäder eller andra miljöer där det finns risk för ögonskador.</li>
-      <li>Hörselskydd: Används för att minska risken för hörselskador vid arbete i bullriga miljöer, som till exempel vid användning av kraftfulla maskiner eller inom vissa industriella sektorer.</li>
-      <li>Andningsskydd: Används för att skydda andningsorganen mot farliga partiklar, gaser eller ångor vid arbete i miljöer med dålig luftkvalitet, som till exempel vid hantering av kemikalier eller vid arbete i dammiga miljöer.</li>
-      <li>Skyddshandskar: Används för att skydda händerna mot skärskador, kemikalier eller andra farliga ämnen vid arbete inom olika branscher, som till exempel inom vården, industri eller byggsektorn.</li>
-    </ul>
-  </div>
+  <article id="löneskillnad">
+    <div class="text-image-flexbox">
+      <div class="text-box left">
+        <h2>Lika betalt!</h2>
+        <p>
+          Lönegapet mellan män och kvinnor är en komplex fråga, men har varit en stor samhällsfråga i många år. Det finns många anledningar till löneskillnader, vissa av dessa är: 
+          <ul>
+            <li>
+              <b>Obetalt arbete:</b> Obetalt arbete, alltså vård och omsorg av 
+              barn samt hushållsarbete som städning och matlagning står 
+              kvinnor till stor del främst för. Det leder till att kvinnors 
+              möjlighet att delta fullt ut i arbetslivet skadas och därmed 
+              påverkas deras inkomst.
+            </li>
+            <li>
+              <b>Karriärval:</b> Kvinnor står för den allra största delen av de reproduktiva jobben, alltså jobb inom vård och omsorg. 
+              Medan män generellt sett jobbar med produktiva jobb där en vara eller tjänst produceras. På grund av att reproduktiva jobb 
+              historiskt sett har varit undervärderat, leder det till stora löneskillnader.
+            </li>
+            <li>
+              <b>Könsdiskriminering:</b> Trots att det är olagligt, så förekommer det en stor del diskriminering. 
+              Könsdiskriminering kan se väldigt annorlunda ut, några exempel är, svårigheter till befodran, 
+              en tuff arbetsmiljö med en “machokultur” i jobbindustrier som huvudsakligen är dominerade av män och såklart lägre löner.
+            </li>
+          </ul>
+        </p>
+      </div>
+      <img src="illustrationer/Löneskillnad.svg" class="logo">
+    </div>
 
-  <div class="text-box right">
-    <h2>Ledighetsrätt</h2>
-    <p>
-      Som anställd har du rätt till ledighet enligt arbetslagstiftningen. 
-      I Sverige har du rätt till semesterledighet och även rätt till 
-      ledighet vid vissa specifika tillfällen,
-      som föräldraledighet eller vård av nära anhörig. 
-      Det är viktigt att du känner till dina rättigheter och att du 
-      kommunicerar med din arbetsgivare om eventuella ledighets behov. 
-      <br><br>
-      Både mammor och pappor har rätt att ta ut lika mycket föräldraledighet 
-      och både männen och kvinnorna får lika mycket betalt när de är 
-      föräldralediga. I Sverige är det väldigt jämlikt på det viset.
-    </p>
-  </div>
-  <div class="text-box left">
-    <h2>Ledighetsrätt</h2>
-    <p>
-      Som anställd har du rätt till ledighet enligt arbetslagstiftningen. 
-      I Sverige har du rätt till semesterledighet och även rätt till 
-      ledighet vid vissa specifika tillfällen,
-      som föräldraledighet eller vård av nära anhörig. 
-      Det är viktigt att du känner till dina rättigheter och att du 
-      kommunicerar med din arbetsgivare om eventuella ledighets behov. 
-      <br><br>
-      Både mammor och pappor har rätt att ta ut lika mycket föräldraledighet 
-      och både männen och kvinnorna får lika mycket betalt när de är 
-      föräldralediga. I Sverige är det väldigt jämlikt på det viset.
-    </p>
-  </div>
-  
+   <div class="text-image-flexbox">
+      <img src="illustrationer/Pengar (mönster) 2.svg">
+      <div class="text-box right">
+        <h3>Hur kan vi minska lönegapet?</h3>
+        <ul>
+          <li>
+            <b>Genomför lönekartläggningar:</b> Arbetsgivare kan genomföra regelbundna analyser av 
+            lönestrukturen för att identifiera eventuella ojämlikheter och vidta åtgärder för att korrigera dem.
+          </li>
+          <li>
+            <b>Främja föräldraledighet och jämställda föräldraansvar:</b> Genom att erbjuda generösa föräldraledighets- och föräldravårds förmåner kan man underlätta för både kvinnor och män att ta ansvar för barnomsorg och karriär.
+          </li>
+          <li>
+            <b>Öka medvetenheten och utbilda om jämställdhet:</b> Genom att skapa medvetenhet och erbjuda utbildning om 
+            jämställdhetsfrågor kan man bidra till att förändra attityder och beteenden som kan påverka lönegapet.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+
+  <article id="trygghet">
+    <div class="text-image-flexbox">
+        <div class="text-box left">
+          <h2>Trygghet</h2>
+          <p>
+            Trygghet och säkerhet på jobbet är väldigt viktigt! 
+            Alla har rätt till en arbetsmiljö som är säker och fri från faror. 
+            Det finns lagar och regler som skyddar arbetstagare och arbetsgivare är skyldiga att följa dem. 
+            Det kan innebära att tillhandahålla skyddsutrustning, genomföra riskbedömningar, erbjuda utbildning och rapportera eventuella olyckor eller farliga situationer. 
+            Om du någonsin känner dig osäker eller har oro kring din arbetsmiljö, är det viktigt att prata med din arbetsgivare eller fackförening för att få stöd och hjälp. 
+            Ingen ska behöva känna sig otrygg på jobbet!
+            (SE HITTA HJÄLP HÖGST UPP TILL HÖGER FÖR NUMMER DU KAN ANVÄNDA OM DU KÄNNER DIG OTRYGG PÅ JOBBET)
+            <br>
+          </p>
+        </div>
+        <img src="illustrationer/Pengar (mönster) 1.svg">
+    </div>
+    
+    <div class="text-image-flexbox">
+      <img src="illustrationer/Trygghet.svg">
+      <div class="text-box right">
+        <h3>Några exempel på skyddsutrustning kan vara:</h3>
+          <ul>
+            <li> Skyddshjälm: Används för att skydda huvudet vid arbete på byggarbetsplatser eller i industriella miljöer där det finns risk för fallande föremål eller huvudskador.</li>
+            <li>Skyddsglasögon: Används för att skydda ögonen mot skadliga partiklar, kemikalier eller ljus vid arbete i laboratorier, verkstäder eller andra miljöer där det finns risk för ögonskador.</li>
+            <li>Hörselskydd: Används för att minska risken för hörselskador vid arbete i bullriga miljöer, som till exempel vid användning av kraftfulla maskiner eller inom vissa industriella sektorer.</li>
+            <li>Andningsskydd: Används för att skydda andningsorganen mot farliga partiklar, gaser eller ångor vid arbete i miljöer med dålig luftkvalitet, som till exempel vid hantering av kemikalier eller vid arbete i dammiga miljöer.</li>
+            <li>Skyddshandskar: Används för att skydda händerna mot skärskador, kemikalier eller andra farliga ämnen vid arbete inom olika branscher, som till exempel inom vården, industri eller byggsektorn.</li>
+          </ul>
+      </div>
+    </div>
+  </article>
+
+  <article id="ledighetsrätt">
+    <div class="text-image-flexbox">
+      <div class="text-box left">
+        <h2>Ledighetsrätt</h2>
+        <p>
+          Som anställd har du rätt till ledighet enligt arbetslagstiftningen. 
+          I Sverige har du rätt till semesterledighet och även rätt till 
+          ledighet vid vissa specifika tillfällen,
+          som föräldraledighet eller vård av nära anhörig. 
+          Det är viktigt att du känner till dina rättigheter och att du 
+          kommunicerar med din arbetsgivare om eventuella ledighets behov. 
+          <br><br>
+          Både mammor och pappor har rätt att ta ut lika mycket föräldraledighet 
+          och både männen och kvinnorna får lika mycket betalt när de är 
+          föräldralediga. I Sverige är det väldigt jämlikt på det viset.
+        </p>
+      </div>
+      <img src="/illustrationer/illustration ledighet.svg">
+    </div>
+  </article>
+
+  <article id="svartarbete">
+    <div class="text-image-flexbox">
+      <img class="" src="/illustrationer/jobba svart 1.svg">
+      <div class="text-box right">
+        <h2>Svartarbete</h2>
+        <p>
+          Svartarbete är en betydande utmaning inom arbetsrätten, som påverkar både arbetstagare och arbetsgivare. Det innebär arbete utanför den officiella ekonomin, 
+          utan skatte- eller sociala avgifter. Svartarbete kan resultera i bristande arbetsrättigheter, ekonomisk sårbarhet och underminering av arbetskulturen. 
+          Förebyggande åtgärder kräver ökad medvetenhet, utbildning och samarbete för att skapa incitament för arbetsgivare att följa lagar och regler.
+          <br><br>
+          För att förhindra svart arbete krävs striktare regelverk och effektiv övervakning. Genom att stärka och tydliggöra arbetsrätten kan 
+          myndigheter avskräcka och främja en sund arbetsmiljö. Införande av digitala verktyg och rapporteringssystem underlättar övervakningen och
+          försvårar för dem som vill bedriva svartarbete att undgå upptäckt.
+          <br><br>
+          För att hantera utmaningen med svart arbete behöver arbetsrätten stärkas och upprätthållas. Genom att främja transparens, införa strängare påföljder 
+          och öka medvetenheten kan samhället gemensamt arbeta för att minska omfattningen av svartarbete. Det är avgörande att skapa en balanserad och rättvis 
+          arbetsmarknad där både arbetstagare och arbetsgivare kan dra nytta av en reglerad och trygg arbetsmiljö.
+        </p>
+      </div>
+    </div>
+  </article>
 </section>
 <!-- !Text section -->
-
-
-
-<div class="foot">
   <footer>
-    <a href="#">
-    •kontakta oss
-  </a>
+    <img class="footer-logo" src="SVG/Rityta 2.svg">
+    <ul>
+      <li>Laura Baranovska - Illustratör</li>
+      <li>Milena Morawska - Illustratör</li>
+      <li>Anna Purgina - Grafisk formgivare</li>
+      <li>Wilmer Säfsten - Lead programmer</li>
+      <li>Tindra Warfvinge - Art director</li>
+      <li>Vincent Winkrantz - Fullstack Programmer</li>      
+    </ul>
   </footer>
-</div>
-</body>
 
+  <script src="script.js" defer></script>
+</body>
 </html>
